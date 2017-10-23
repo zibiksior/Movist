@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout onVolumeUp="volume_up" onVolumeDown="volume_down">
-	<tabs index="1">
+	<tabs index="0">
 		<tab text="Playback">
 	<row>
 		<button icon="vdown" onTap="volume_down" />
@@ -10,9 +10,9 @@
 	<row>
 		<button icon="previous" onTap="previous" />
 		<button icon="playpause" onTap="play_pause" />
-		<button icon="next" onTap="next" />		
+		<button icon="next" onTap="next" />
 	</row>
-	<row>	  
+	<row>
 		<button icon="fullscreen" onTap="fullscreen" />
 	</row>
 	</tab>
@@ -25,7 +25,7 @@
       </row>
       <row>
         <button text="-0.1s" onTap="slower" />
-		<button text="+0.1s" onTap="faster" />	
+		<button text="+0.1s" onTap="faster" />
       </row>
       <row weight="wrap">
         <label color="hard" text="Audio delay" />
@@ -39,4 +39,4 @@
       </row>
 	</tab>
 	</tabs>
-</layout> 
+</layout>
